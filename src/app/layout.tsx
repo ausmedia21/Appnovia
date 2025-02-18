@@ -22,9 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <body className="font-inter">
-        <Navbar/>
         {children}
-        <Footer/>
         </body>
     </html>
   )
