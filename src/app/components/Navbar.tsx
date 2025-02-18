@@ -12,7 +12,7 @@ const Navbar = () => {
     <div>
         <nav className='fixed top-0 left-0 w-full gap-28 z-50 bg-neutral4 px-6 py-4 flex justify-between items-center'>
             {/* LOGO */}
-          <Image src="/images/logo.svg" alt="logo" className="min-w-[10vw] py-6 h-auto" width={154.49} height={24} />
+          <Image src="/images/logo-one.svg" alt="logo" className="min-w-[10vw] py-6 h-auto" width={155} height={24} />
             {/* Nav-Links */}
           <ul className='hidden space-x-10 md:flex font-inter'>
             <li>
