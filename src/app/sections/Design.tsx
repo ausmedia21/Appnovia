@@ -1,10 +1,11 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Design = () => {
   return (
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:m-20 lg:p-8 mt-20'>
             <div className='mb-4'>
-                <img src="/images/pana.png" alt="icons" title='img' width={600} height={400} className='w-full md:w-[500px] lg:w-[600px] h-auto' />
+                <Image src="/images/pana.png" alt="icons" title='img' width={600} height={400} className='w-full md:w-[500px] lg:w-[600px] h-auto' />
             </div>
             <div className='ms-8  space-y-8'>
                 <h3 className='text-3xl mt-10 mb-4 text-accent font-semibold'>How to design your site footer like <br />  we did</h3>

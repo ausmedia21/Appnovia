@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Features = () => {
   return (
@@ -11,17 +12,17 @@ const Features = () => {
         </div>
         <div className='container mx-auto px-10 md:px-18 sm:px-12 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 justify-center items-center mt-8 gap-6 '>
             <div className='rounded-lg shadow-md md:items-center md:justify-center w-72  px-8 py-6 space-y-2 overflow-hidden bg-white text-center'>
-                <img src="/images/icon (1).svg" className='mx-auto w-16' alt="Feature" title='icon'/>
+                <Image src="/images/icon (1).svg" width={65} height={56} className='mx-auto w-16' alt="Feature" title='icon'/>
                 <h3 className='text-3xl text-accent font-bold'>Membership Organizations</h3>
                 <p className='text-sm text-neutral3 leading-normal'>Our membership management software provides full automation of membership renewals and payments.</p>
             </div>
             <div className='rounded-lg shadow-md w-72 px-8 py-6 space-y-2 overflow-hidden bg-white text-center'>
-                <img src="/images/icon (2).svg" className='mx-auto w-16' alt='icon' title='icon'/>
+                <Image src="/images/icon (2).svg" width={65} height={56} className='mx-auto w-16' alt='icon' title='icon'/>
                 <h3 className='text-3xl text-accent font-bold'>National Associations</h3>
                 <p className='text-sm text-neutral3 leading-normal'>Our membership management software provides full automation of membership renewals and payments.</p>
             </div>
             <div className='rounded-lg shadow-md px-8 w-72 py-6 space-y-2 overflow-hidden bg-white text-center'>
-                <img src="/images/icon (3).svg" className='mx-auto w-16' alt='icon' title='icon'/>
+                <Image src="/images/icon (3).svg" width={65} height={56} className='mx-auto w-16' alt='icon' title='icon'/>
                 <h3 className='text-3xl text-accent font-bold'>Clubs And Groups</h3>
                 <p className='text-sm text-neutral3 leading-normal'>Our membership management software provides full automation of membership renewals and payments.</p>
 

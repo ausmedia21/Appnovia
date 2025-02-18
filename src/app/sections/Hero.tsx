@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
@@ -12,7 +13,7 @@ const Hero = () => {
             </button>
         </div>
         <div className='px-10 py-4 '>
-            <img src="/images/illustration.png" alt="pix" className='w-full md:w-[300px] lg:w-[400px] h-auto' />
+            <Image src="/images/illustration.png" alt="pix" width={391} height={407} className='w-full md:w-[300px] lg:w-[400px] h-auto' />
         </div>
     </div>
   )
