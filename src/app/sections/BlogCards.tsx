@@ -3,17 +3,17 @@ import Image from 'next/image'
 const BlogCards = () => {
     const cards = [
       {
-        image: "/images/image 18.png",
+        image: "/images/image-18.png",
         title: "Creating Streamlined Safeguarding Processes with OneRen",
         link: "#"
       },
       {
-        image: "/images/image 19.png",
+        image: "/images/image-19.png",
         title: "What are your safeguarding responsibilities and how can you manage them?",
         link: "#"
       },
       {
-        image: "/images/image 20.png",
+        image: "/images/image-20.png",
         title: "Revamping the Membership Model with Triathlon Australia",
         link: "#"
       }

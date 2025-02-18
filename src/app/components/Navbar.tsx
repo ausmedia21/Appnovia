@@ -12,7 +12,7 @@ const Navbar = () => {
     <div>
         <nav className='fixed top-0 left-0 w-full gap-28 z-50 bg-neutral4 px-6 py-4 flex justify-between items-center'>
             {/* LOGO */}
-          <Image src="/images/Logo.svg" alt="logo" className="min-w-[10vw] py-6 h-auto" width={154.49} height={24} />
+          <Image src="/images/logo.svg" alt="logo" className="min-w-[10vw] py-6 h-auto" width={154.49} height={24} />
             {/* Nav-Links */}
           <ul className='hidden space-x-10 md:flex font-inter'>
             <li>
@@ -21,7 +21,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href='/service' className='text-neutral2 font-normal relative pb-2 after:block after:h-0.5 after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full'>
+              <Link href='/' className='text-neutral2 font-normal relative pb-2 after:block after:h-0.5 after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full'>
                 Service
               </Link>
             </li>
@@ -74,7 +74,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href='/service' className='text-neutral2 font-normal' onClick={ () => setIsOpen(false)}>
+                  <Link href='/' className='text-neutral2 font-normal' onClick={ () => setIsOpen(false)}>
                     Service
                   </Link>
                 </li>

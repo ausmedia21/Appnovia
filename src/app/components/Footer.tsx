@@ -8,10 +8,10 @@ const Footer = () => {
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 space-x-8 text-start mx-8 my-4 md:text-left">
                         <div className="space-y-4">
-                            <Image src="/images/Logo (2).svg" alt="logo" width={191} height={29} className="min-w-[10vw] h-auto mt-8"/>
+                            <Image src="/images/logo-two.svg" alt="logo" width={191} height={29} className="min-w-[10vw] h-auto mt-8"/>
                             <p className='text-sm text-neutral4'>Copyright &copy; 2020 Nextcent ltd.</p>
                             <p className='text-sm text-neutral4'>All rights reserved</p>
-                            <Image src="/images/Social Links.svg" alt="logo" width={32} height={32} className="w-full md:w-3/4 h-auto py-6" />
+                            <Image src="/images/social-links.svg" alt="logo" width={32} height={32} className="w-full md:w-3/4 h-auto py-6" />
                             
                         </div>
 
@@ -19,12 +19,12 @@ const Footer = () => {
                             <h5 className='text-white font-semibold text-xl py-7'>Company</h5>
                             <ul className='space-y-4 text-sm font-normal'>
                                 <li className='text-sm text-neutral4'>
-                                    <Link href="/about" className='text-sm text-neutral4 hover:text-lg'>
+                                    <Link href="/" className='text-sm text-neutral4 hover:text-lg'>
                                         About Us
                                     </Link>
                                 </li>
                                 <li className='text-sm text-neutral4'>
-                                    <Link href="/blog" className='text-sm text-neutral4 hover:text-lg'>
+                                    <Link href="/" className='text-sm text-neutral4 hover:text-lg'>
                                         Blog
                                     </Link>
                                 </li>
@@ -34,12 +34,12 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li className='text-sm text-neutral4'>
-                                    <Link href="/pricing" className='text-sm text-neutral4 hover:text-lg'>
+                                    <Link href="/" className='text-sm text-neutral4 hover:text-lg'>
                                         Pricing
                                     </Link>
                                 </li>
                                 <li className='text-sm text-neutral4'>
-                                    <Link href="/testimonial" className='text-sm text-neutral4 hover:text-lg'>
+                                    <Link href="/" className='text-sm text-neutral4 hover:text-lg'>
                                         Testimonial
                                     </Link>
                                 </li>
